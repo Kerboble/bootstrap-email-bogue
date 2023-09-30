@@ -18,17 +18,18 @@ p {
 }
 
 body {
+ overflow: hidden;
+
+}
+
+.container-fluid {
+    height: 2000px;
     background-image: url(https://4kwallpapers.com/images/wallpapers/forest-mountains-pine-trees-winter-peak-4480x2520-583.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     height: 2000px;
     margin: 0;
-
-}
-
-.container-fluid {
-    height: 2000px;
 }
 .navbar {
     width: 25%;
@@ -100,6 +101,7 @@ img{
     margin-right: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     vertical-align: top;
+    
 }
 
 .email1 {
