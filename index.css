@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container-fluid {
+    background-image: url(./icons/banner-with-blue-orange-balls-generative-al.jpg);
+    height: 100%;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.icon {
+    height: 4vh;
+    width: 4vh;
+    margin-top: 3vh;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    margin-bottom: 1vh;
+}
+
+.logo {
+    height: 4vh;
+    width: 4vh;
+    margin-top: 3vh;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+}
+
+.nav-container
+{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    color: white;
+}
+
+
+.nav-icon-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.orange-mail {
+    color: orange;
+    font-weight: bold;
+    font-family: goblin;
+}
+
+.logo:hover, .icon:hover {
+    height: 7vh;
+    width: 7vh;
+}
+
+.icon-div-tagged:hover,
+.icon-div-email:hover,
+.icon-div-send:hover,
+.icon-div-draft:hover,
+.icon-div-banana:hover
+{
+    color: orange;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.messages {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    color: white;
+}
+
+/*.search-button  {
+    color: white;
+    border: none;
+    background-color: rgb(53, 51, 51);
+    height: auto;
+    width: ;
+    padding: ;
+    border: 15%;
+}*/
+
+.search-bar {
+    border-radius: 5px;
+    width: 85%;
+    background-color: rgb(59, 57, 57);
+    border:none;
+    color: orange;
+    text-align: center;
+    font-size: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1s;
+}
+
+.search-btn{
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    margin-left: 8px;
+    font-size: bold;
+    font-size: 18px;
+    height: 4vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
+
+.search-bar-div {
+    padding-top:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-of-emails {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
+    text-align:left;
+    height: 100vh;
+}
+
+.email {
+    background-color: rgb(56, 71, 73);
+    height: 19vh;
+    margin-bottom: 8%;
+    border: none;
+    border-radius: 5px;
+    transition: 0.15s;
+    padding-left: 1vh;
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.email:hover {
+    height: 21vh;
+    box-shadow: rgba(5, 5, 5, 0.25) 0px 30px 60px -12px inset, rgba(218, 168, 122, 0.808) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
+
+.search-bar:hover{
+    box-shadow: rgba(5, 5, 5, 0.25) 0px 30px 60px -12px inset, rgba(218, 168, 122, 0.808) 0px 18px 36px -18px inset;
+}
+
+
+strong {
+    color: orange;
+}
+
+.message-container {
+    width: 100vh;
+    background-color: rgb(29, 28, 28);
+}
+
+.selected-message-container {
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+
+.email-message {
+    background-color: rgb(29, 28, 28);
+    border:  none;
+    height: 40vh;
+    text-align: left;
+    padding-left: 1vh;
+    padding-top: 1vh;
+    border-radius: 5px;
+}
+
+.time {
+    font-size: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+.bill {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    border: none;
+    margin-bottom: 2vh;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-top: 0.5vh;
+    font-size: 0.5rem;
+}
+
+.email-header {
+    padding-top: 7vh;
+}
+
+.reply {
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vh;
+    
+}
+
+.reply-bttn, .send-bttn {
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    margin-left: 8px;
+    font-size: bold;
+    font-size: 2vh;
+    height: 4vh;
+    width: 10vh;
+    align-self: end;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+}
+
+
+.reply-bttn:hover,
+.send-bttn:hover,
+.search-btn:hover
+{
+    background-color: rgb(29, 28, 28);
+    color: orange;
+}
+
+.reply-bttn:active,
+.send-bttn:active,
+.search-btn:active
+{
+    box-shadow: rgba(5, 5, 5, 0.25) 0px 30px 60px -12px inset, rgba(218, 168, 122, 0.808) 0px 18px 36px -18px inset;
+}
+
+.modal-contentt {
+    background-color: rgb(41, 40, 40);
+    text-align: center;
+}
+
+.text-area {
+    width: 100%;
+    height: 20vh;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    resize: none;
+    background-color: rgb(56, 71, 73);
+    margin-bottom: 4vh;
+
+}
+
+.reply-bttn {
+    margin-bottom: 0.5vh;
+    resize: none;
+    position: absolute;
+    margin-bottom: 5vh;
+}
+
+.orange-tree {
+    width: 50px;
+    height: 50px;
+}
+
+.modal-body, h5 {
+text-align: center;
+}
+
+.bill:hover {
+    height: 10vh;
+    width: 10vh;
+    cursor: pointer;
+}
