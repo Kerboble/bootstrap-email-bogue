@@ -33,7 +33,7 @@ body{
 }
 
 .nav-container
-{
+{   
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
@@ -48,6 +48,45 @@ body{
     position: relative;
 }
 
+@media (min-width:992px) {
+    .nav-icon-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    justify-content: space-between;
+    }
+   
+}
+
+@media (min-width:992px) {
+    .nav-container {
+        height: 8vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        color: white;
+    }
+   
+}
+
+@media (min-width:992px) {
+    .icon {
+        height: 2.5vh;
+        width: 2.5vh;
+        cursor: pointer;
+        transition: 0.5s;
+       
+    }
+    .logo {
+        height: 3vh;
+        width: 3vh;
+        cursor: pointer;
+        transition: 0.5s;
+}
+
+}
+
 .orange-mail {
     color: orange;
     font-weight: bold;
@@ -55,15 +94,16 @@ body{
 }
 
 .logo:hover, .icon:hover {
-    height: 7vh;
-    width: 7vh;
+    height: 4vh;
+    width: 4vh;
 }
 
 .icon-div-tagged:hover,
 .icon-div-email:hover,
 .icon-div-send:hover,
 .icon-div-draft:hover,
-.icon-div-banana:hover
+.icon-div-banana:hover,
+.icon-div-compose:hover
 {
     color: orange;
     transition: 0.5s;
