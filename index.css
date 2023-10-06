@@ -46,6 +46,8 @@ body{
     flex-direction: column;
     text-align: center;
     position: relative;
+    font-size: 1vh;
+    vertical-align: top;
 }
 
 @media (min-width:992px) {
@@ -56,6 +58,7 @@ body{
     position: relative;
     z-index: 100;
     justify-content: space-between;
+    margin-top: -1.5vh;
     }
    
 }
@@ -110,7 +113,7 @@ body{
     color: orange;
     transition: 0.5s;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .messages {
