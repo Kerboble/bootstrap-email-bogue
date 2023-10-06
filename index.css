@@ -77,14 +77,14 @@ body{
         height: 2.5vh;
         width: 2.5vh;
         cursor: pointer;
-        transition: 0.5s;
+        transition: 0.15s;
        
     }
     .logo {
         height: 3vh;
         width: 3vh;
         cursor: pointer;
-        transition: 0.5s;
+        transition: 0.15s;
 }
 
 }
