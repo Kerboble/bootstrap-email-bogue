@@ -1,0 +1,42 @@
+BootStrap Grid Project - Documentation
+Sep 18, 2023
+12pm - 4:30pm Worked on understanding more about bootstrap and how it all works. I looked
+up youtube tutorials on the subject and read up on their site.
+
+Sep 19 , 2023
+11:30am - 4:00pm I attempted to make a basic version of what I wanted my email template to
+look like. I had issues figuring out how the columns worked as I couldn't manage to have any
+content show up alongside my first column. Went back and looked up more tutorials.
+
+Sep 20, 2023
+10am -12pm Sketched out a basic outline of what I want my layout to look like at a viewport of
+xl, m, and small.
+
+Sep 21, 2023
+12pm-5pm I felt like my knowledge in css and html was lacking so I searched on youtube to fill
+in the gaps or things that I have forgotten about. Made a mock of my first email template but I
+am having troubles with adding a text-area with a button inside of it for the reply section of the
+template.
+
+Sep 26, 2023
+10am - 6pm Went back to relearn more about html, css and bootstrap.
+
+Sep 29, 2023
+6pm - 8:30 Attended the head start session with Alexander to get feedback on my email
+template. Decided I wanted to start over that night to make the design better and to apply what
+Alex taught me.
+
+Sep 30, 2023
+10am -7pm Worked on my whole project to the point where I felt like I did a satisfactory job. I
+finally understand how responsive design works and how you need to apply css properties
+appropriately to make the elements selected responsive.
+
+Oct 1, 2023
+11am - Working on the little touch ups. Made it so text isn't spilling out of their containers when
+resizing the viewport.Made my icons more responsive by giving them vh instead of pixels -
+found out the issues to most of my problems were from hard setting properties to pixels in a
+responsive environment. - I think I am done and happy with my project.
+
+Oct 3, 2023
+Was told that my third viewport size was not meaningful enough so I changed how the nav bar
+is displayed when the VP is greater than 992px.
